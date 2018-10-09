@@ -19,20 +19,20 @@ function getUserHome() {
   return process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME'];
 }
 
-var home = process.env.INSIGHT_DB || (getUserHome() + '/.insight-neetcoin');
+var home = process.env.INSIGHT_DB || (getUserHome() + '/.insight-idolcoin');
 
 if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
   port = '3000';
-  b_port = '21010';
-  p2p_port = '21011';
+  b_port = '32338';
+  p2p_port = '32339';
 } else {
   env = 'testnet';
   db = home + '/testnet';
   port = '3001';
-  b_port = '21010';
-  p2p_port = '21011';
+  b_port = '33338';
+  p2p_port = '33339';
 }
 port = parseInt(process.env.INSIGHT_PORT) || port;
 
@@ -57,9 +57,9 @@ var isWin = /^win/.test(process.platform);
 var isMac = /^darwin/.test(process.platform);
 var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
-  if (isWin) dataDir = '%APPDATA%\\NEETCOIN\\';
-  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/NEETCOIN/';
-  if (isLinux) dataDir = process.env.HOME + '/.NEETCOIN/';
+  if (isWin) dataDir = '%APPDATA%\\IDOL\\';
+  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/IDOL/';
+  if (isLinux) dataDir = process.env.HOME + '/.IDOL/';
 }
 dataDir += network === 'testnet' ? 'testnet3' : '';
 
