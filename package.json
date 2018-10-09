@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-neetcoin",
-  "description": "An open-source bitcoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "name": "insight-api-idolcoin",
+  "description": "An open-source idolcoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.18",
-  "repository": "https://github.com/NEETCOINTeam/insight-api-neetcoin.git",
+  "repository": "https://github.com/yutotetuota/insight-api-idolcoin.git",
   "contributors": [{
     "name": "Matias Alejo Garcia",
     "email": "ematiu@gmail.com"
