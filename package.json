@@ -23,9 +23,9 @@
     "email": "jungans@gmail.com"
   }],
   "bugs": {
-    "url": "https://github.com/NEETCOINTeam/insight-api-neetcoin/issues"
+    "url": "https://github.com/yutotetuota/insight-api-idolcoin/issues"
   },
-  "homepage": "https://github.com/NEETCOINTeam/insight-api-neetcoin",
+  "homepage": "https://github.com/Nyutotetuota/insight-api-idolcoin",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -47,7 +47,7 @@
     "async": "*",
     "base58-native": "0.1.4",
     "bignum": "*",
-    "bitcore": "git://github.com/NEETCOINTeam/bitcore-neetcoin.git",
+    "bitcore": "git://github.com/yutotetuota/bitcore-idolcoin.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
