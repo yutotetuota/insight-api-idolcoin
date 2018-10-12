@@ -67,7 +67,7 @@
     "socket.io": "~1.7",
     "socket.io-client": "~1.7",
     "soop": "=0.1.5",
-    "winston": "*",
+    "winston": "^2.4.3",
     "xmlhttprequest": "~1.8.0"
   },
   "devDependencies": {
